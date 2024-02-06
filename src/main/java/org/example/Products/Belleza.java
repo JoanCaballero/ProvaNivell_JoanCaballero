@@ -1,8 +1,6 @@
-package org.example;
+package org.example.Products;
 
-import java.util.Date;
-
-public class Belleza extends Producto{
+public class Belleza extends Producto {
 
     private boolean vegano;
     private String temporada;

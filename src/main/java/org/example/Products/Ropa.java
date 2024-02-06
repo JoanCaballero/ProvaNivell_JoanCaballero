@@ -1,8 +1,8 @@
-package org.example;
+package org.example.Products;
 
-import java.util.Date;
+import org.example.Products.Producto;
 
-public class Ropa extends Producto{
+public class Ropa extends Producto {
     private String tejido, tipo, talla;
 
     public Ropa(String nombre, String marca, double precio, int stock, double rebaja, String tejido, String tipo, String talla) {

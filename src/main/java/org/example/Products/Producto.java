@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Products;
 
 import java.util.Date;
 import java.util.Scanner;
@@ -21,12 +21,10 @@ public abstract class Producto {
     }
 
     public String getNombre() {
-        System.out.println(nombre);
         return nombre;
     }
 
     public String getMarca() {
-        System.out.println(marca);
         return marca;
     }
 
